@@ -1,12 +1,3 @@
-# metros_quadrados = int(input("Quantos m2 você vai pintar? "))
-# galao_preco = 80
-# if metros_quadrados % 6 == 0:
-#     galao_ate_aqui = galao_preco
-#     galao_ate_aqui = galao_ate_aqui + galao_preco
-#     print(f"Você gastará R$ {galao_ate_aqui: .2f}")
-# else:
-#     print(f'Você gastará R$ {galao_preco: .2f}')
-
 metros_quadrados = int(input("Quantos m2 você vai pintar? "))
 lata_preco = 80
 lata_quantidade = 1

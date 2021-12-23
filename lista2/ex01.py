@@ -6,7 +6,7 @@ if lado_a + lado_b > lado_c and lado_b + lado_c > lado_a and lado_a + lado_c > l
     if lado_a != lado_b and lado_a != lado_c and lado_b != lado_c:
         print("triângulo escaleno")
     elif lado_a == lado_b and lado_a != lado_c or lado_b == lado_c and lado_b != lado_a or lado_c == lado_a and lado_c != lado_b:
-        print('triâgulo isóceles')
+        print('triâgulo isósceles')
     else:
         print('triângulo equilatero')
 else: 
