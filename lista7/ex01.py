@@ -3,6 +3,7 @@
 # multstring('Hi', 2) -> 'HiHi'
 def multstring(s, n):
     print(s * n)
-    return s,n
+    return s, n
 
-multstring('Hi', 2)
+
+multstring("Hi", 2)

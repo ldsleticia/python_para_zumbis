@@ -6,4 +6,5 @@ def array_count9(nums):
             count += 1
     return count
 
-print(array_count9([9,10,9,10,9,10]))
+
+print(array_count9([9, 10, 9, 10, 9, 10]))

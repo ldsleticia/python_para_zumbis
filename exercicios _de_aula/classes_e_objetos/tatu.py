@@ -3,15 +3,19 @@ class Cliente:
         self.nome = nome
         self.telefone = telefone
 
+
 class Conta:
-    def __init__(self, clientes, numero, saldo = 0):
+    def __init__(self, clientes, numero, saldo=0):
         self.saldo = saldo
         self.clientes = clientes
         self.numero = numero
+
     def resumo(self):
-        print(f'CC Número: {self.número} Saldo: {self.saldo:.2f}')
+        print(f"CC Número: {self.número} Saldo: {self.saldo:.2f}")
+
     def saque(self, valor):
         if self.saque >= valor:
             self.saldo -= valor
+
     def deposito(self, valor):
         self.saldo += valor

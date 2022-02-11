@@ -9,4 +9,5 @@ def soma_dobro(a, b):
         c = (a + b) * 2
     return c
 
-print(soma_dobro(1,1))
+
+print(soma_dobro(1, 1))

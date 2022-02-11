@@ -8,4 +8,5 @@ def dez(a, b):
     else:
         return print(False)
 
+
 dez(10, 10)

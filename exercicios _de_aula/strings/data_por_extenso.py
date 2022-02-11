@@ -1,7 +1,20 @@
-#Primeira forma de resolver o exerício
-meses = ['janeiro', 'fevereiro', 'marco', 'abril', 'maio', "junho", 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
-dia,mes,ano = input('Digite uma data dd/mm/aaaa: ').split("/")
-print(f'{dia} de {meses[int(mes) - 1]} de {ano}')
+# Primeira forma de resolver o exerício
+meses = [
+    "janeiro",
+    "fevereiro",
+    "marco",
+    "abril",
+    "maio",
+    "junho",
+    "julho",
+    "agosto",
+    "setembro",
+    "outubro",
+    "novembro",
+    "dezembro",
+]
+dia, mes, ano = input("Digite uma data dd/mm/aaaa: ").split("/")
+print(f"{dia} de {meses[int(mes) - 1]} de {ano}")
 
 """ 
 Segunda forma de reolver o exercício

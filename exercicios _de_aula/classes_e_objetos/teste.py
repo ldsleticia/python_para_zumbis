@@ -1,9 +1,10 @@
 from tatu import Cliente
 from tatu import Conta
-joao = Cliente('João da Silva', '777-1234')
-maria = Cliente('Maria da Silva', '555-4321')
-print('Nome: %s. Telefone: %s.'%(joao.nome, joao.telefone))
-print('Nome: %s. Telefone: %s.'%(maria.nome, maria.telefone))
+
+joao = Cliente("João da Silva", "777-1234")
+maria = Cliente("Maria da Silva", "555-4321")
+print("Nome: %s. Telefone: %s." % (joao.nome, joao.telefone))
+print("Nome: %s. Telefone: %s." % (maria.nome, maria.telefone))
 
 conta1 = Conta([joao], 1, 1000)
 conta2 = Conta([maria, joao], 2, 500)

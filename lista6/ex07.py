@@ -12,4 +12,5 @@ def dista10(n):
     else:
         return print(False)
 
+
 dista10(89)

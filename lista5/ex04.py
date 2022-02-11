@@ -6,7 +6,7 @@ contador = 0
 
 for i in range(18644, 33088):
     numbers = []
-    aux = ''
+    aux = ""
     aux = str(i)
     is2 = False
     is7 = False

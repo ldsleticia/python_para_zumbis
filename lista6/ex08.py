@@ -3,7 +3,7 @@
 # apaga('kitten', 1) -> 'ktten'
 # apaga('kitten', 4) -> 'kittn'
 def apaga(s, n):
-    return s[:n] + s[n +1:]
+    return s[:n] + s[n + 1 :]
 
-print(apaga('kitten', 4))
 
+print(apaga("kitten", 4))

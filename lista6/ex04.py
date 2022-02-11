@@ -10,5 +10,6 @@ def diff21(n):
         c = (21 - n) * 2
     return abs(c)
 
+
 print(diff21(19))
 print(diff21(25))

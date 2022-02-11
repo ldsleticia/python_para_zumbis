@@ -5,4 +5,6 @@ def fatorial(n):
         n = n - 1
     return f
 
-for i in range(5): print(fatorial(i))
+
+for i in range(5):
+    print(fatorial(i))

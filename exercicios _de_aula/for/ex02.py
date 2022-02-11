@@ -1,1 +1,2 @@
-for x in 'leticia': print(x)
+for x in "leticia":
+    print(x)
