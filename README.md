@@ -8,3 +8,7 @@
 </p>
 
 Exercícios do curso Python para Zumbis
+
+<p align="center">
+  <img alt="Edo Tensei" src="https://github.com/ldsleticia/python_para_zumbis/blob/main/assets/edo-tensei.jpeg" />
+</p>
