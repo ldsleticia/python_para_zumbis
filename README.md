@@ -1,4 +1,4 @@
-# python_para_zumbis
+# Python para zumbis
 
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ldsleticia/python_para_zumbis?color=" />
